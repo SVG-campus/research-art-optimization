@@ -1,6 +1,6 @@
 # Pillar progress — `research-art-optimization`
 
-**Overall solution proximity (rubric): ~21%** (subjective objectives need fixed rubrics or human eval protocols).
+**Overall solution proximity (rubric): ~23%** (subjective objectives need fixed rubrics or human eval protocols).
 
 See: [meta `docs/PILLAR_PROGRESS.md`](https://github.com/SVG-campus/Research-Apriori/blob/main/docs/PILLAR_PROGRESS.md).
 
@@ -8,7 +8,7 @@ See: [meta `docs/PILLAR_PROGRESS.md`](https://github.com/SVG-campus/Research-Apr
 |------|---:|------|
 | Charter + prereg | 40 | Define utility explicitly per experiment |
 | Layer A / nulls | 10 | Null models for “quality” are design-dependent |
-| Reproducibility | 42 | Submodule CI |
+| Reproducibility | **45** | `runs/smoke.yaml` |
 | Domain data | 8 | Corpora / preference logs not yet pinned |
 
 ## Links
