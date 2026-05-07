@@ -16,6 +16,7 @@ dev = [
   "nbclient>=0.9",
   "ipykernel>=6.29",
   "datasets>=2.16",
+  "pillow>=10",
 ]
 
 [build-system]
