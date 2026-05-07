@@ -1,6 +1,6 @@
 # Pillar progress — `research-art-optimization`
 
-**Overall solution proximity (rubric v2): ~53%** toward a defensible, preregistered answer for this pillar’s charter.
+**Overall solution proximity (rubric v2): ~54%** toward a defensible, preregistered answer for this pillar’s charter.
 
 Formula (same as meta `docs/PILLAR_PROGRESS.md`): `round(0.30×charter + 0.30×LayerA + 0.25×repro + 0.15×data)` on 0–100 subscores.
 
@@ -11,8 +11,8 @@ See the full rubric and sibling pillars: [meta `docs/PILLAR_PROGRESS.md`](https:
 | Axis | % | Note |
 |------|---:|------|
 | Charter + prereg | 55 | `docs/PREREG.md` + `METHODS.md` |
-| Layer A / nulls | 38 | Permutation + bootstrap + **domain charter stream** notebook (CI) |
-| Reproducibility | 78 | `runs/smoke.yaml`, `runs/ci_notebooks.yaml`, `methodology_preamble`, pytest + headless CI (six CI notebooks (adds `CHARTER_FASHION_MNIST_STREAM_SMOKE` on Fashion-MNIST stream)) |
+| Layer A / nulls | 40 | Permutation + bootstrap + **`CHARTER_LAYER_A_MULTIDRAW_SMOKE`** + **domain charter stream** notebook (CI) |
+| Reproducibility | 78 | `runs/smoke.yaml`, `runs/ci_notebooks.yaml`, `methodology_preamble`, pytest + headless CI (seven CI notebooks: adds `CHARTER_LAYER_A_MULTIDRAW_SMOKE` before domain stream charter) |
 | Domain data | 38 | `datasets.yaml` Hub pins + `reference_streams` + charter stream smoke |
 
 ## Links
