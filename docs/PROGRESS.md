@@ -11,8 +11,8 @@ See the full rubric and sibling pillars: [meta `docs/PILLAR_PROGRESS.md`](https:
 | Axis | % | Note |
 |------|---:|------|
 | Charter + prereg | 55 | `docs/PREREG.md` + `METHODS.md` |
-| Layer A / nulls | 34 | `tests/test_layer_a_permutation_smoke.py` + `notebooks/SMOKE_LAYER_A.ipynb` |
-| Reproducibility | 77 | `runs/smoke.yaml`, `methodology_preamble`, CI pytest |
+| Layer A / nulls | 36 | Permutation + bootstrap tests; `SMOKE_LAYER_A` + `SMOKE_BOOTSTRAP` notebooks (CI) |
+| Reproducibility | 77 | `runs/smoke.yaml`, `runs/ci_notebooks.yaml`, `methodology_preamble`, pytest + headless notebooks in CI |
 | Domain data | 32 | `datasets.yaml` Hub pins + `reference_streams` |
 
 ## Links
