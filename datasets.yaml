@@ -9,7 +9,18 @@ huggingface:
     split: train[:2%]
     streaming: true
     note: Tiny GLUE stream for CI / dataloader sanity — replace with domain datasets as charters land.
+  - repo_id: zalando-datasets/fashion_mnist
+    split: train[:2%]
+    streaming: true
+    note: Small garment image stream for CV tensor smoke (not a style authority benchmark).
 
 kaggle: []
 
-search_keywords: [museum metadata, color harmony corpora, generative art params]
+
+search_keywords: []
+
+reference_streams:
+  - name: Metropolitan Museum Collection API (reference)
+    url: https://metmuseum.github.io/
+    note: High-quality open images where CC0 applies — still verify per-object rights.
+
