@@ -12,6 +12,8 @@ Optional rows may set `enabled: false` so future charter notebooks stay listed w
 
 **`notebooks/CHARTER_EXTENDED_LIGHT.ipynb`** (synthetic mean + run card) runs next as a light Layer A–shaped check.
 
+**`notebooks/CHARTER_FASHION_MNIST_STREAM_SMOKE.ipynb`** runs next: small streaming slice of `zalando-datasets/fashion_mnist` + y-shuffle null + run card (CV tensor smoke only).
+
 **`FUTURE_CHARTER_SLOT.ipynb`** is listed disabled with **no** committed file: replace that row with a real path when you add a heavier charter notebook, verify headless execution locally, then set `enabled: true`.
 
 ## Promotion audit (canonical numbers)

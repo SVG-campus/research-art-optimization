@@ -12,7 +12,7 @@ huggingface:
   - repo_id: zalando-datasets/fashion_mnist
     split: train[:2%]
     streaming: true
-    note: Small garment image stream for CV tensor smoke (not a style authority benchmark).
+    note: Pinned for `CHARTER_FASHION_MNIST_STREAM_SMOKE` CI + pytest stream smoke (CV tensor smoke only).
 
 kaggle: []
 
