@@ -8,11 +8,11 @@ huggingface:
     config: cola
     split: train[:2%]
     streaming: true
-    note: Tiny GLUE stream for CI / dataloader sanity — replace with domain datasets as charters land.
+    note: Tiny GLUE stream for CI / dataloader sanity only — **not** generative aesthetics or human-judgment rubric evidence (text proxy; replace when charters demand native design corpora).
   - repo_id: zalando-datasets/fashion_mnist
     split: train[:2%]
     streaming: true
-    note: Pinned for `CHARTER_FASHION_MNIST_STREAM_SMOKE` CI + pytest stream smoke (CV tensor smoke only).
+    note: Hub **image classification stream** pinned for `CHARTER_FASHION_MNIST_STREAM_SMOKE` + pytest — CV tensor / schema smoke only; not a substitute for museum-grade accession metadata or human preference studies (watch schema drift).
 
 kaggle: []
 
@@ -22,5 +22,5 @@ search_keywords: []
 reference_streams:
   - name: Metropolitan Museum Collection API (reference)
     url: https://metmuseum.github.io/
-    note: High-quality open images where CC0 applies — still verify per-object rights.
+    note: **Off-Hub reference** collection metadata and images where CC0 applies — not the same artifact as the HF Fashion-MNIST charter stream; verify per-object rights before canonical use.
 
