@@ -1,0 +1,14 @@
+[
+  {"label": 0, "image": {"width": 28, "height": 28, "mode": "L"}},
+  {"label": 1, "image": {"width": 28, "height": 28, "mode": "L"}},
+  {"label": 2, "image": {"width": 28, "height": 28, "mode": "L"}},
+  {"label": 3, "image": {"width": 28, "height": 28, "mode": "L"}},
+  {"label": 4, "image": {"width": 28, "height": 28, "mode": "L"}},
+  {"label": 5, "image": {"width": 28, "height": 28, "mode": "L"}},
+  {"label": 6, "image": {"width": 28, "height": 28, "mode": "L"}},
+  {"label": 7, "image": {"width": 28, "height": 28, "mode": "L"}},
+  {"label": 8, "image": {"width": 28, "height": 28, "mode": "L"}},
+  {"label": 9, "image": {"width": 28, "height": 28, "mode": "L"}},
+  {"label": 0, "image": {"width": 28, "height": 28, "mode": "L"}},
+  {"label": 5, "image": {"width": 28, "height": 28, "mode": "L"}}
+]
