@@ -1,27 +1,30 @@
-# Preregistration template — `research-art-optimization`
-
+# Preregistration — `research-art-optimization`
+ 
 **Pillar:** `research-art-optimization`  
-**Title:** Art & design optimization
+**Title:** Generative Parameter Complexity and Human Preference Causality (ECT-2026-008)
+**Date:** 2026-06-14  
+**ORCID Identifier:** `0009-0004-9601-5617`
 
 ## Charter (one paragraph)
 
-Optimize perceptual / layout objectives with human-in-the-loop scope and no copyright laundering.
+Evaluate the causal dynamics between algorithmic complexity (parameter count, latent dimension size) of generative models and human preference ratings for output art. This study tests whether increased parameter complexity causally drives higher preference ratings or if the relationship is mediated by image readability, validated under OCCA's Kolmogorov MDL and PC graph engines.
 
 ## Primary question (Layer A)
 
-- **Question:** _What measurable difference do we expect under the stated hypothesis?_
-- **Primary metric:** _e.g. mean delta, AUC, correlation, regret …_
-- **Direction / threshold:** _pre-specify sign or minimal effect size before peeking._
+- **Question:** Does generative parameter complexity (parameter_complexity) cause changes in human preference ratings (preference_score)?
+- **Expected DAG:** `parameter_complexity -> preference_score`
+- **Primary metric:** Discovered directed edges and mutual information.
+- **Direction / threshold:** $\alpha = 0.05$ for PC algorithm. The discovered headway-to-delay edge must be directed from parameter complexity to preference score, and the correlation must exceed the phase-shuffled Spectral MC null ($p < 0.05$).
 
 ## Null / negative controls
 
-- **Null model:** _e.g. y-shuffle, permutation, time-shift, placebo instrument …_
-- **Caps:** read `runs/smoke.yaml` (`n_perm_max`, `n_boot_max`) for local smoke; raise only on Kaggle/HF Jobs with a new `run_id`.
+- **Null model:** Phase-shuffled Spectral Monte Carlo (FFT surrogate paths).
+- **Caps:** Capped at $N = 25$ runs for local smokes (`runs/smoke.yaml`); $N = 1000$ for full remote promotion validation with run ID `charter_art_complexity_preference_run_01`.
 
 ## Truth scope & ethics
 
-- **Scope:** observational / simulated / scenario — _not_ universal causal claims unless design supports it.
-- **Data rights:** cite Hub/Kaggle dataset cards; no redistribution beyond their licenses.
+- **Scope:** Observational generative design and preference metrics under the **ECT-2026** standard.
+- **Data rights:** Fashion-MNIST styling subsets and human rating records.
 
 ## Promotion rules
 

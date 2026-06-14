@@ -26,7 +26,7 @@ build-backend = "setuptools.build_meta"
 [tool.setuptools]
 # Notebooks/runs live at repo root; only ship the preamble module via setuptools.
 packages = []
-py-modules = ["methodology_preamble"]
+py-modules = ["methodology_preamble", "occa_pillar_smoke"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

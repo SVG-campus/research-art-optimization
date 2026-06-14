@@ -14,6 +14,7 @@ notebooks:
     timeout_seconds: 240
   - path: notebooks/CHARTER_FASHION_MNIST_STREAM_SMOKE.ipynb
     timeout_seconds: 300
+  - path: notebooks/CHARTER_OCCA_EXHAUST_SMOKE.ipynb
+    timeout_seconds: 300
   - path: notebooks/FUTURE_CHARTER_SLOT.ipynb
-    enabled: false
     timeout_seconds: 900
